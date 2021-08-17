@@ -41,8 +41,8 @@ export default class Dao extends Component {
         governance_token_symbol: "",
         dao_structure: "",  // drop down
         voting_process: "",
-        AUM:0,
-        TVL: 0,
+        AUM:null,
+        TVL: null,
         tech_stack: "",
         notes: "",
         blockchain: "", // drop down

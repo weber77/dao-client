@@ -42,8 +42,8 @@ export default class AddTutorial extends Component {
       governance_token_symbol: "",
       dao_structure: "shares",  // drop down
       voting_process: "",
-      AUM: 0,
-      TVL: 0,
+      AUM: null,
+      TVL: null,
       tech_stack: "",
       notes: "",
       blockchain: "Ethereum", // drop down
@@ -117,7 +117,7 @@ export default class AddTutorial extends Component {
   }
   onChangeAUM(e) {
     this.setState({
-      TVL: e.target.value
+      AUM: e.target.value
     });
   }
   onChangeTechStack(e) {
