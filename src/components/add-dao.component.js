@@ -42,8 +42,8 @@ export default class AddTutorial extends Component {
       governance_token_symbol: "",
       dao_structure: "shares",  // drop down
       voting_process: "",
-      AUM: null,
-      TVL: null,
+      AUM: "",
+      TVL: "",
       tech_stack: "",
       notes: "",
       blockchain: "Ethereum", // drop down
