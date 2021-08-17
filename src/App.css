@@ -1,0 +1,59 @@
+@import url("https://cdn.syncfusion.com/ej2/material.css");
+
+.list {
+  text-align: left;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.submit-form {
+  max-width: 500px;
+  margin: auto;
+}
+
+.edit-form {
+  max-width: 500px;
+  margin: auto;
+}
+
+.category-link{
+  display:flex;
+  list-style: none;
+  padding: 0;
+
+}
+
+.category-link li span{
+  background-color: #DDD;  
+  padding: 0.3rem 0.8rem;
+  margin: 0 0.2rem;
+  border-radius: 20px;
+  
+}
+
+.category-link li span :hover{
+  cursor: pointer;
+  
+}
+
+.search{
+ position: relative;
+ 
+
+}
+
+.search .search-icon{
+  position: absolute;
+  z-index: 1;
+  top: 20%;
+  left: 1rem;
+  
+ }
+
+ .search input{
+  padding: 1rem 35px;
+  border-width: 0;
+  border-bottom-width: 1px;
+ }
+
+ 
